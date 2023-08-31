@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <!-- Roll forward to future major versions of the netcoreapp as needed -->
+    <RollForward>Major</RollForward>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- CDK Construct Library dependencies -->
+    <PackageReference Include="Amazon.CDK" Version="1.204.0" />
+    <PackageReference Include="Amazon.CDK.AWS.APIGateway" Version="1.204.0" />
+    <PackageReference Include="Amazon.CDK.AWS.Comprehend" Version="1.204.0" />
+    <PackageReference Include="Amazon.CDK.AWS.DynamoDB" Version="1.204.0" />
+    <PackageReference Include="Amazon.CDK.AWS.FraudDetector" Version="1.204.0" />
+    <PackageReference Include="Amazon.CDK.AWS.Lambda" Version="1.204.0" />
+    <PackageReference Include="Amazon.CDK.AWS.Lex" Version="1.204.0" />
+    <PackageReference Include="Amazon.CDK.AWS.Rekognition" Version="1.204.0" />
+    <PackageReference Include="Amazon.CDK.AWS.S3" Version="1.204.0" />
+    <PackageReference Include="Amazon.CDK.AWS.S3.Deployment" Version="1.204.0" />
+    <PackageReference Include="Amazon.CDK.AWS.SageMaker" Version="1.204.0" />
+    <PackageReference Include="AWSSDK.Comprehend" Version="3.7.104.34" />
+    <PackageReference Include="AWSSDK.FraudDetector" Version="3.7.104.9" />
+    <PackageReference Include="AWSSDK.LexRuntimeV2" Version="3.7.101.78" />
+    <PackageReference Include="AWSSDK.Polly" Version="3.7.107.13" />
+    <PackageReference Include="AWSSDK.Rekognition" Version="3.7.108.5" />
+    <!-- <PackageReference Include="Amazon.CDK.Lib" Version="2.86.0" /> -->
+    <PackageReference Include="AWSSDK.SageMaker" Version="3.7.142" />
+    <PackageReference Include="AWSSDK.SageMakerRuntime" Version="3.7.102.46" />
+    <PackageReference Include="AWSSDK.TranscribeService" Version="3.7.104.65" />
+    <PackageReference Include="Constructs" Version="[10.0.0,11.0.0)" />
+    <PackageReference Include="Keras.NET" Version="3.8.5" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.ML" Version="2.0.1" />
+    <PackageReference Include="Moq" Version="4.18.4" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.0.4" />
+    <PackageReference Include="NumSharp" Version="0.30.0" />
+    <PackageReference Include="TensorFlow.Keras" Version="0.11.0" />
+    <PackageReference Include="TensorFlow.NET" Version="0.110.0" />
+    <PackageReference Include="Xunit" Version="2.4.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <!-- <PackageReference Include="MSTest.TestFramework" Version="x.x.x" /> -->
+
+    <!-- jsii Roslyn analyzers (un-comment to obtain compile-time checks for missing required props
+    <PackageReference Include="Amazon.Jsii.Analyzers" Version="*" PrivateAssets="all" />
+    -->
+  </ItemGroup>
+
+</Project>

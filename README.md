@@ -1,0 +1,2 @@
+# Simple React Chatbot and AWS-CDK AI/ML-app for predictive-analytics
+Simple React Chatbot (TypeScript/JS) and AWS-CDK AI/ML-app for predictive-analytics including image/video-analysis for claims-processing (Rekognition), Natural-Language-Processing (NLP) for policy-document-analysis (Comprehend), predictive-modelling and risk-assessment (SageMaker), chatbot (Lex) and voice-assistants (Polly) for customer-support, fraud-detection and prevention (FraudDetector), Transcribe, Translate, S3, Lambda, DynamoDB, CloudFormation, IAM-policies, etc. partially complete (C#).
